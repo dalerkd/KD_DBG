@@ -1,0 +1,29 @@
+// MiniDebugger.idl : MiniDebugger.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(MiniDebugger.tlb)。
+
+[ uuid(21A287D9-161E-402A-A2D4-6AB6E0928D17), version(1.0) ]
+library MiniDebugger
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CMiniDebuggerDoc 的主调度接口
+	
+	[ uuid(C52201EB-DF98-488E-A102-3DBDD26CCE56) ]
+	dispinterface IMiniDebugger
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CMiniDebuggerDoc 的类信息
+	
+	[ uuid(5B6EF2E1-EAE5-41CE-9BC7-8F2AD2E42F5D) ]
+	coclass MiniDebugger
+	{
+		[default] dispinterface IMiniDebugger;
+	};
+};

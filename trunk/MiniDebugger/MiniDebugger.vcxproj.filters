@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Logic">
+      <UniqueIdentifier>{53abc5f1-6d64-4ace-b737-d351c861592c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Logic">
+      <UniqueIdentifier>{9c9fa07f-1e15-4244-96e4-9a31c07067a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MiniDebugger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDebuggerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\AntiAsm.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\BeaEngine.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\DealEvent.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Debug.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\StartDebug.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\ThreadRelated.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\StartDebugThread.h">
+      <Filter>头文件\Logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MiniDebugger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDebuggerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\AntiAsm.cpp">
+      <Filter>源文件\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\DealEvent.cpp">
+      <Filter>源文件\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Debug.cpp">
+      <Filter>源文件\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\StartDebug.cpp">
+      <Filter>源文件\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\ThreadRelated.cpp">
+      <Filter>源文件\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\StartDebugThread.cpp">
+      <Filter>源文件\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="MiniDebugger.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MiniDebugger.reg" />
+    <None Include="res\MiniDebugger.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MiniDebugger.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MiniDebugger.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
